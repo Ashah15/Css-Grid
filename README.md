@@ -12,3 +12,4 @@ Creating a css framework
 [Click Here]()
 
 ##### Screenshot of the live repository/project:
+![odin project css](https://user-images.githubusercontent.com/25789605/62810989-b1e1ab80-bb08-11e9-95b5-5585a598d61f.png)
