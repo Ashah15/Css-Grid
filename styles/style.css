@@ -5,18 +5,6 @@ body {
 main {
     background-color: white;
 }
-/* FONTS */
-
-@font-face {   
-font-family: "norse regular";    
-src: url(/fonts/norse.regular.otf)
-}
-
-@font-face {   
-    font-family: "norse bold";    
-    src: url(/fonts/norse.bold.otf)
-
-}
 
 a, p, h1, h2, h3, h4 {
     font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -54,7 +42,6 @@ nav img {
 
 nav h2 {
     color: #cc9543;
-    font-family: "norse bold", sans-serif;
     font-size: 32px;
     letter-spacing: 0.4px;
     line-height: 48px;
@@ -269,7 +256,6 @@ nav h2 {
 
 .footer h1 {
     color: #cc9543;
-    font-family: "norse bold", sans-serif;
     font-size: 25.6px;
     letter-spacing: 0.4px;
     line-height: 38.4px;
