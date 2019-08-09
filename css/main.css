@@ -52,11 +52,11 @@ table {
 /* ONLY TO VISUALIZE */
 
 .grey {
-    background-color: lightgray;
+    background-color: lightgreen;
 }
 
 .blue {
-    background-color: skyblue;
+    background-color: lightcyan;
 }
 
 
@@ -217,7 +217,7 @@ h2{ font-weight: bold; color: black; }
 
 p{ color: black; }
 
-h3{ color: gray;  }
+h3{ color: powderblue;  }
 
 /* Media queries */
 

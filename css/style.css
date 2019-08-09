@@ -145,7 +145,7 @@ nav h2 {
 }
 
 .language-container {
-    background-color: #f3f3f3;
+    background-color: paleturquoise;
     padding-top:70px;
 }
 
@@ -163,7 +163,7 @@ nav h2 {
     padding: 25px;
 }
 
-.language-button {
+.language {
     color: white;
     background-color: #cc9543;
     border-radius: 3.2px;
@@ -177,7 +177,7 @@ nav h2 {
     padding: 16px 56px 16px 56px;
 }
 
-.success-container {
+.container-success {
     background-color: #fcfcfc;
     padding: 60px 50px
 }
