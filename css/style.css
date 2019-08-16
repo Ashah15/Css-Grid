@@ -285,7 +285,7 @@ nav h2 {
 }
 
 .footer-list ul {
-   margin-left: 60px;
+   padding-left: 1.7rem;
 }
 
 .footer-list ul li a {
@@ -307,6 +307,6 @@ nav h2 {
 
 @media(max-width:800px){
     nav h2{
-      font-size: 1.2rem;
+      font-size: 0.8rem;
     }
 }
