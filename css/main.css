@@ -47,6 +47,12 @@ table {
 	border-spacing: 0;
 }
 
+
+img{
+    max-width:100%;
+    height: auto;
+}
+
 /* Framework Wrapper */
 
 /* ONLY TO VISUALIZE */
@@ -59,6 +65,14 @@ table {
     background-color: lightcyan;
 }
 
+
+.visible-sm{
+    display:none;
+}
+
+.visible-lg{
+    display: block;
+}
 
 
 .row, .column {
@@ -195,6 +209,14 @@ table {
     display: flex;
 }
 
+.pr-1{
+    padding-right: 1rem;
+}
+
+.pl-1{
+    padding-left: 1rem;
+}
+
 .p-5 {
     padding: 5px;
 }
@@ -211,7 +233,19 @@ table {
     padding: 20px;
 }
 
+.center-text{
+    text-align: center;
+}
+
+.right-text{
+    text-align:right;
+}
+
+.left-text{
+    text-align:left;
+}
 /* Font styling */
+
 
 h2{ font-weight: bold; color: black; }
 
@@ -390,4 +424,12 @@ h3{ color: powderblue;  }
         flex-direction: column;
         justify-content: initial;
     }
+
+    .visible-sm{
+    display:block;
+  }
+
+  .visible-lg{
+    display: none;
+  }
 }

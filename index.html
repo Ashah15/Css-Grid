@@ -12,12 +12,13 @@
 <body>
     <!--NAVBAR-->
     <nav class="row">
-        <div class="column col-5 flex-row align-center justify-center p-10">
-            <img src="images/odin-logo.svg" alt="The Odin logo">
+        <div class="column col-5 col-7-sm flex-row align-center justify-left p-10">
+            <img src="images/odin-logo.svg" alt="The Odin Project logo">
             <h2>The Odin Project</h2>
+
         </div>
-        <div class="column col-6 p-10 align-center flex-row justify-start nav-list">
-            <ul class="flex-row">
+        <div class="column col-6 col-5-sm p-10 align-center flex-row justify-end nav-list">
+            <ul class="flex-row visible-lg">
                 <li><a href="#">Curriculum</a></li>
                 <li><a href="#">Community</a></li>
                 <li><a href="#">About</a></li>
@@ -25,11 +26,13 @@
                 <li id="sign-up"><a href="#">Sign Up</a></li>
                 <li><a href="#">Log In</a></li>
             </ul> 
+
+             <button class="visible-sm"><i class="fa fa-bars" aria-hidden="true"></i></button>
         </div>
     </nav>
     <header>
         <div class="row">
-            <h1 class="column col-12 justify-center header-h1">Your Career in Web Development Starts Here</h1>
+            <h1 class="column col-12 justify-center header-h1 center-text">Your Career in Web Development Starts Here</h1>
         </div>
         <div class="row">
             <p class="column col-12 justify-center header-p">Our full stack curriculum is free and supported by a passionate open source community.</p>
@@ -49,7 +52,7 @@
     <main>
         <div class="row">
             <h2 class="column col-12 justify-center how-it-works">How it works</h2>
-            <p class="center col-5 justify-center how-it-works-p">This website helps in providing information,knowledge and guide one in understanding how to go about creating good if not better websites.</p>
+            <p class="center col-5 justify-center how-it-works-p">This is the website we wish we had when we were learning on our own. We scour the internet looking for only the best resources to supplement your learning and present them in a logical order.</p>
         </div>
         <div class="row justify-center align-start reset-flex-sm img-container">
             <figure class="column col-3-lg col-3-md flex-column justify-center col-12-sm">
@@ -129,10 +132,10 @@
                 </div>
             </div>
             <div class="row justify-center">
-                <button class="language">Get Started</button>
+                <button class="language-button">Get Started</button>
             </div>
         </div>
-        <div class="container-success">
+        <div class="success-container">
             <div class="row">
                 <h2 class="column col-12 justify-center success-header">Success stories</h2>
             </div>
@@ -183,9 +186,10 @@
             </div>
         </div>
     </main>
+   
     <footer>
-        <div class="row footer align-center">
-            <div class="column col-4 flex-row align-center justify-center p-10">
+        <div class="row footer align-center pl-1">
+            <div class="column col-4 flex-row align-center justify-center p-10 visible-lg">
                 <img src="images/odin-logo.svg" alt="The Odin Project logo">
                 <h1>The Odin Project</h1>
             </div>
@@ -195,6 +199,7 @@
                 <i class="fab fa-facebook"></i>
                 <i class="fab fa-twitter"></i>
             </div>
+
             <div class="column col-4 flex-row footer-list align-center">
                 <ul>
                     <li><a href="#">About</a></li>
@@ -208,6 +213,6 @@
                 </ul>
             </div>
         </div>
-    </footer>
+    </footer> 
 </body>
 </html>

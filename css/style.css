@@ -35,6 +35,11 @@ h3 {
 }
 
 /* NAVBAR */
+nav{
+  max-width: 90%;
+    margin: 0 auto 3rem auto;
+}
+
 nav img {
     height: 70px;
     width: 52px;
@@ -147,6 +152,7 @@ nav h2 {
 .language-container {
     background-color: paleturquoise;
     padding-top:70px;
+    width:100%;
 }
 
 .language-img {
@@ -159,8 +165,9 @@ nav h2 {
     align-items: center;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 7px 16px 0px;
-    margin: 20px 0;
+    margin: 20px auto;
     padding: 25px;
+    max-width: 90%;
 }
 
 .language {
@@ -266,7 +273,7 @@ nav h2 {
 .fab {
     color: #ce973e;
     font-size: 24px;
-    margin-left: 50px;
+    padding-left: 1.4rem;
 }
 
 .icons {
@@ -296,8 +303,10 @@ nav h2 {
     color: black;
 }
 
-@media screen and (max-width: 1024px) {
-    .nav-list{ 
-    display: none;
+
+
+@media(max-width:800px){
+    nav h2{
+      font-size: 1.2rem;
     }
 }
